@@ -1,0 +1,273 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of CSS Reset */
+
+html {
+    width:485px;
+    background:black;
+    margin:auto;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size:1.25em;
+}
+
+figcaption, label, input, small {
+    font-size:1em;
+}
+nav h2 {
+    display:none;
+}
+
+nav a {
+    font-size: 1.5em;
+    list-style:none;
+    text-decoration: none;
+    color:white;
+
+}
+
+nav {
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+[href="#top"] {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    border-radius:10px;
+    padding-right:15px;
+    padding-bottom:10px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+nav li {
+    display:inline;
+    padding-left:70px;
+}
+
+h1, h2 {
+    font-weight: bold;
+    text-transform:uppercase;
+    padding:10px;
+}
+
+h1 {
+    font-size: 3em;
+    color:#007d7b;
+}
+
+h2 {
+    font-size: 2em;
+    text-align:center;
+}
+
+p {
+    margin-top:20px;
+    padding-left:10px;
+    padding-bottom:10px;
+}
+.images {
+    text-align:center;
+}
+
+
+header, #about, #gallery {
+    background:white;
+}
+
+figcaption {
+    position:relative;
+    font-weight:bold;
+}
+
+#chile figcaption {
+    color:white;
+    bottom:30px;
+}
+
+#guat figcaption {
+    color:white;
+    bottom:275px;
+}
+
+#hawaii figcaption {
+    color:white;
+    bottom:30px;
+}
+
+#iran figcaption {
+    bottom:625px;
+}
+
+#ireland figcaption {
+    bottom:625px;
+}
+
+#italy figcaption {
+    bottom:30px;
+}
+
+#moab figcaption {
+    color:white;
+    bottom:30px;
+}
+
+#rocky figcaption {
+    bottom:275px;
+}
+
+#switz figcaption {
+    bottom:275px;
+}
+
+#uk figcaption {
+    bottom:275px;
+}
+
+#usa figcaption {
+    bottom:275px;
+}
+
+#wyoming figcaption {
+    bottom:275px;
+    color:white;
+}
+
+#contact h2, #contact p{
+    color:white;
+}
+
+#contact p {
+    padding-bottom:30px;
+    text-align:center;
+}
+form {
+    color:white;
+}
+
+form input {
+    color:#007d7b;
+}
+
+form {
+    justify-content: center;
+    display:flex;
+    text-transform: uppercase;
+}
+
+input[type="submit"] {
+    color:white;
+    background:#007d7b;
+    border-radius: 15px;
+    text-transform:uppercase;
+    width:200px;
+    font-weight:bold;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+
+input[type="text"] {
+    text-transform:uppercase;
+    font-weight:bold;
+    width:400px;
+    margin-bottom:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+form li:last-child {
+    text-align: center;
+}
+
+footer p {
+    color:white;
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:75px;
+}
+
+@media screen and (min-width:880px) {
+    html {
+        width:880px;
+    }
+
+    nav li {
+        padding-left: 160px;
+    }
+
+    .images {
+        display: flex;
+        flex-wrap:wrap;
+        gap:10px;
+    }
+
+
+}
+
+@media screen and (min-width:1300px) {
+    html {
+        width:1300px;
+    }
+
+    nav li {
+        padding-left:25px;
+    }
+
+    nav {
+        margin-left:967px;
+    }
+}
